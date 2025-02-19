@@ -4,11 +4,11 @@ A transformer-based language model for character-level text generation trained o
 
 ## Key Concepts
 
-**Self-Attention**: Computes dependencies between tokens by weighing their interactions.
-**Multi-Head Attention**: Uses multiple attention heads for parallel focus on different sequence parts.
-**Positional Encoding**: Encodes the position of tokens to capture order-dependent relationships.
-**Residual Connections**: Prevents vanishing/exploding gradients in deep networks.
-**Cross-Entropy Loss**: Measures prediction error for classification tasks.
+1. **Self-Attention**: Computes dependencies between tokens by weighing their interactions.
+2. **Multi-Head Attention**: Uses multiple attention heads for parallel focus on different sequence parts.
+3. **Positional Encoding**: Encodes the position of tokens to capture order-dependent relationships.
+4. **Residual Connections**: Prevents vanishing/exploding gradients in deep networks.
+5. **Cross-Entropy Loss**: Measures prediction error for classification tasks.
 
 ## Model Architecture
 
