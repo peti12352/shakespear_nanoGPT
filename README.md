@@ -47,8 +47,9 @@ Trained on CUDA-enabled GPU or TPU.
 - Dependencies: `torch`, `torch.nn`, `numpy`
 
 ## Usage
-
-1. Clone the repository:
+Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/transformer-text-generation.git
-   cd transformer-text-generation
+   git clone https://github.com/peti12352/shakespear_nanoGPT.git
+   cd shakespear_nanoGPT
+
+
