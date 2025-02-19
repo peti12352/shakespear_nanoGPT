@@ -32,12 +32,11 @@ Trained on CUDA-enabled GPU or TPU.
 ## Text Generation
 
 - **Process**: Generate text by predicting one character at a time using multinomial sampling.
-- **Example**:
-    ```python
-    context = torch.zeros((1, 1), dtype=torch.long, device=device)
-    generated_text = decode(m.generate(context, max_new_tokens=5000)[0].tolist())
-    print(generated_text)
-    ```
+```python
+context = torch.zeros((1, 1), dtype=torch.long, device=device)
+generated_text = decode(m.generate(context, max_new_tokens=5000)[0].tolist())
+print(generated_text)
+```
 
 ## Requirements
 
