@@ -1,14 +1,14 @@
 # Transformer-Based Language Model: Tiny Shakespeare Text Generation
 
-A transformer-based language model for character-level text generation trained on the *Tiny Shakespeare* dataset. The model predicts the next character based on context using multi-head self-attention.
+A transformer-based language model for character-level text generation trained on the *Tiny Shakespeare* dataset. The model predicts the next character based on context using multi-head self-attention. Based on Andrej Karpathy's *"Zero to Hero"* series on Youtube, *Attention Is All You Need* paper and *Deep Residual Learning for Image Recognition* paper.
 
 ## Key Concepts
 
-- **Self-Attention**: Computes dependencies between tokens by weighing their interactions.
-- **Multi-Head Attention**: Uses multiple attention heads for parallel focus on different sequence parts.
-- **Positional Encoding**: Encodes the position of tokens to capture order-dependent relationships.
-- **Residual Connections**: Prevents vanishing/exploding gradients in deep networks.
-- **Cross-Entropy Loss**: Measures prediction error for classification tasks.
+**Self-Attention**: Computes dependencies between tokens by weighing their interactions.
+**Multi-Head Attention**: Uses multiple attention heads for parallel focus on different sequence parts.
+**Positional Encoding**: Encodes the position of tokens to capture order-dependent relationships.
+**Residual Connections**: Prevents vanishing/exploding gradients in deep networks.
+**Cross-Entropy Loss**: Measures prediction error for classification tasks.
 
 ## Model Architecture
 
@@ -27,7 +27,7 @@ A transformer-based language model for character-level text generation trained o
 - **Learning Rate**: 0.001
 - **Training Split**: 90\% training, 10\% validation
 
-Trained on CUDA-enabled GPU or TPU.
+Trained on CUDA-enabled TPU on Kaggle
 
 ## Text Generation
 
