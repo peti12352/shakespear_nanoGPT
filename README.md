@@ -44,8 +44,6 @@ print(generated_text)
 ## Requirements
 
 - Python 3.x
-- PyTorch (CUDA enabled)
-- NVIDIA GPU/TPU
 - Dependencies: `torch`, `torch.nn`, `numpy`
 
 ## Usage
