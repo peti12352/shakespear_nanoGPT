@@ -1,4 +1,4 @@
-# Bigram/Transformer-Based (nano) Language Model: <br /> Tiny Shakespeare Text Generation
+# [*Bigram*](https://web.stanford.edu/~jurafsky/slp3/3.pdf)-Based (nano) Language Model: <br /> Tiny Shakespeare Text Generation
 
 A transformer-based language model for character-level text generation trained on the *Tiny Shakespeare* dataset. The model predicts the next character based on context using multi-head self-attention. Based on Andrej Karpathy's *"Zero to Hero"* series on Youtube, [*Attention Is All You Need*](https://arxiv.org/pdf/1706.03762) paper and [*Deep Residual Learning for Image Recognition*](https://arxiv.org/pdf/1512.03385v1) paper.
 
