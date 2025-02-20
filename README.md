@@ -2,21 +2,23 @@
 
 A transformer-based language model for character-level text generation trained on the *Tiny Shakespeare* dataset. The model predicts the next character based on context using multi-head self-attention. Based on Andrej Karpathy's *"Zero to Hero"* series on Youtube, [*Attention Is All You Need*](https://arxiv.org/pdf/1706.03762) paper and [*Deep Residual Learning for Image Recognition*](https://arxiv.org/pdf/1512.03385v1) paper.
 
+Here I found a few Shakespear datasets: https://github.com/cobanov/shakespeare-dataset/blob/main/text/romeo-and-juliet_TXT_FolgerShakespeare.txt
+
 ## Key Concepts
 (roughly speaking)
 1. **Self-Attention**: Computes *affinities* between tokens by weighing their interactions.
 2. **Multi-Head Attention**: Uses *multiple attention heads* for parallel focus on different sequence parts.
-3. **Positional Encoding**: Encodes the *position of tokens* to capture order-dependent relationships.
+3. **Positional Encoding**: Encodes the *position of tokens* (order matters, but it gets lost without this - this problem first appeared in transformer architectures)
 4. **Residual Connections**: Prevents *vanishing/exploding gradients* in deep networks and *speeds up* computation (see [*Deep Residual Learning for Image Recognition*](https://arxiv.org/pdf/1512.03385v1)).
 5. **Cross-Entropy Loss**: Measures prediction error for classification tasks.
 
 ## Model Architecture
 
-1. **Embedding Layers**: Token to vector transformation.
-2. **Multi-Head Attention**: Captures token dependencies.
-3. **Feed-Forward Network**: Two fully connected layers.
-4. **Residual + LayerNorm**: Stabilizes and speeds up training.
-5. **Final Linear Layer**: Outputs logits for next-token prediction.
+1. **Embedding Layers**
+2. **Multi-Head Attention**
+3. **Feed-Forward Network**
+4. **Residual + LayerNorm**
+5. **Final Linear Layer** (outputs logits for next-token prediction)
 
 ## Training
 
