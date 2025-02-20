@@ -51,5 +51,3 @@ Clone the repository:
    ```bash
    git clone https://github.com/peti12352/shakespear_nanoGPT.git
    cd shakespear_nanoGPT
-
-
