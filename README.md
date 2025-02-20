@@ -26,7 +26,7 @@ Here I found a few Shakespear datasets: https://github.com/cobanov/shakespeare-d
 - **Loss**: Cross-entropy
 - **Batch Size**: 16
 - **Max Iterations**: 5000
-- **Learning Rate**: 0.001
+- **Learning Rate**: 1e-3
 - **Training Split**: 90\% training, 10\% validation
 
 Trained on CUDA-enabled TPU on Kaggle
