@@ -1,6 +1,6 @@
 # [*Bigram*](https://web.stanford.edu/~jurafsky/slp3/3.pdf)-Based (nano) Language Model: <br /> Tiny Shakespeare Text Generation
 
-This is a simple language model for character-level text generation trained on the *Tiny Shakespeare* dataset. The model predicts the next character based on context using multi-head self-attention. Based on Andrej Karpathy's *"Zero to Hero"* series on Youtube, [*Attention Is All You Need*](https://arxiv.org/pdf/1706.03762) paper and [*Deep Residual Learning for Image Recognition*](https://arxiv.org/pdf/1512.03385v1) paper.
+This is a simple language model for character-level text generation trained on the *Tiny Shakespeare* dataset. The model predicts the next character based on context using multi-head self-attention. Based on Andrej Karpathy's *"Zero to Hero"* series on Youtube, [*Attention Is All You Need*](https://arxiv.org/pdf/1706.03762) paper and [*Deep Residual Learning for Image Recognition*](https://arxiv.org/pdf/1512.03385v1) paper. It's important emphasize though that this model is not even close to state-of-the-art solutions for text generation, but it helped me understand the fundamental architecture of transformer-based LLMs.
 
 Here I found a few Shakespear datasets: https://github.com/cobanov/shakespeare-dataset/blob/main/text/romeo-and-juliet_TXT_FolgerShakespeare.txt
 The current notebook contains and the model was trained on *Romeo and Juliet*
